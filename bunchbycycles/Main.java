@@ -15,7 +15,8 @@ public class Main {
   static void testBucketingByNumberOfCycles() {
     System.out.println("Counting batteries by usage cycles...\n");
     //Adding a new variable for simplifying the code.
-    int a[]=new int[10000];
+    int a[]= {100,200,350,450,550,1000};
+    
     CountsByUsage counts = countBatteriesByUsage(a);
     assert(counts.lowCount == 2);
     assert(counts.mediumCount == 3);
