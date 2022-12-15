@@ -27,11 +27,11 @@ public class Main {
     testBucketingByNumberOfCycles();
     for(int i=0;i<a.length();i++)
     {
-      if(a[i]<310)
+      if(a[i]<=310)
       { 
         lowCount++;
       }
-      else if(a[i]>310 && a[i]<925)
+      else if(a[i]>310 && a[i]<930)
       {
         mediumCount++;
       }
